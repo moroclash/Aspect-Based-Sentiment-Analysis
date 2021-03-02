@@ -32,7 +32,7 @@ setup(
         'google-cloud-storage',
         'testfixtures',
         'optuna',
-        'spacy'
+        'spacy>3'
     ],
     python_requires='>=3.6.9',
 )
