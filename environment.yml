@@ -5,10 +5,10 @@ dependencies:
   - pytest
   - pytest-timeout
   - ipython=7.3
-  - spacy
+  - spacy>3
   - dataclasses
   - pip:
-      - tensorflow
+      - tensorflow==2.2
       - google-cloud-storage==1.26
       - testfixtures
       - transformers
